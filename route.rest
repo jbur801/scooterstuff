@@ -1,0 +1,13 @@
+DELETE http://localhost:3000/happy/5f1b991a6670b4163003187b
+
+###
+
+GET http://localhost:3000/happy/
+###
+POST http://localhost:3000/happy
+Content-type: application/json
+
+{
+    "name": "jak chen",
+    "bank": "1234567890"
+}
